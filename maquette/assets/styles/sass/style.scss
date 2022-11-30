@@ -58,7 +58,7 @@ body{
     /*TITRES*/
 
     h1, h2, h3{
-        font-family: $mainFont;
+        font-family: $titleFont;
     }
 
     h1{
@@ -74,8 +74,15 @@ body{
     }
 
     /*PARAGRAPHES*/
+    
+    font-family: $mainFont;
 
     /*LIENS*/
+    
+    a{
+        text-decoration: none;
+        color: $fontColor;
+    }
 
     /*LISTES*/
 
@@ -86,6 +93,12 @@ body{
     /*HEADER*/
 
     header{
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3vh 5vw;
 
         /*LOGO*/
         
@@ -98,7 +111,10 @@ body{
         nav{
 
             ul{
-
+                
+                display: flex;
+                flex-direction: row;
+                
                 li{
 
                     a{
@@ -120,7 +136,7 @@ body{
         #main-title{
 
             h1{
-
+                text-align: center;
             }
         }
 
