@@ -1,0 +1,18 @@
+@import "reset";
+
+main{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+        
+    section{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+                
+        div{
+            background-color: #497f54;
+            border: 1px dotted white;
+        }
+    }
+}
+
