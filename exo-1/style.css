@@ -52,12 +52,17 @@ table {
 /*****FIN DU RESET CSS*****/
 
 body > main{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    height: 100vh;
+	height: 100vh;
+	display: grid;
+	grid-template-rows: repeat(3, 1fr);
 }
 
-body > main > div{
+body > main > section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+body > main > section > div{
     background-color: #497f54;
     border: 1px dotted white;
 }
