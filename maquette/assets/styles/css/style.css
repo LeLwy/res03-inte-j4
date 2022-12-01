@@ -74,6 +74,7 @@ body h1 {
 }
 body h2 {
   font-size: 2rem;
+  text-align: center;
 }
 body h3 {
   font-size: 1.5rem;
@@ -104,8 +105,19 @@ body main {
   /*SECTION - #recent-posts*/
   /*SECTION - #get-latest-posts*/
 }
+body main section {
+  width: 90vw;
+  margin: auto;
+}
 body main #main-title h1 {
   text-align: center;
+}
+body main #recent-posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+body main #recent-posts article header img {
+  max-width: 25vw;
 }
 
 /*# sourceMappingURL=style.css.map */
