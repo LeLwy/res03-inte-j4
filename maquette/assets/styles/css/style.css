@@ -72,9 +72,11 @@ body h1, body h2, body h3 {
 }
 body h1 {
   font-size: 2.5rem;
+  padding: 10vh 0;
 }
 body h2 {
   font-size: 2rem;
+  padding: 5vh 0;
   text-align: center;
 }
 body h3 {
@@ -123,6 +125,7 @@ body main #recent-posts > article {
   display: grid;
   grid-template-rows: 1.6fr 1.6fr 0.3fr;
   max-width: 30vw;
+  margin-bottom: 3vh;
 }
 body main #recent-posts > article > header {
   grid-row: 1/2;
@@ -154,6 +157,7 @@ body main #recent-posts > article > footer {
 }
 body main #recent-posts > article > footer > img {
   max-height: 3vh;
+  border-radius: 3px;
 }
 body main #recent-posts > article > footer > p {
   margin: 0 1vw;
@@ -168,7 +172,8 @@ body main #recent-posts > article > footer > ul > li {
 body main #recent-posts > article > footer > ul > li > a {
   background-color: #f5c5b2;
   padding: 1vh 1vw;
-  border-radius: 5px;
+  border-radius: 3px;
+  font-size: 0.8rem;
 }
 body main #recent-posts > article > footer > ul > li > a:hover {
   background-color: #f08e80;
